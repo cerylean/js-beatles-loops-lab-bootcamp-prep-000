@@ -1,3 +1,4 @@
+
 function theBeatlesPlay (musician, instruments) 
 {
   var newMusic = []
@@ -8,6 +9,25 @@ function theBeatlesPlay (musician, instruments)
  return newMusic
   }
   
-  function johnLennonFacts (facts) {var i = 0
-  while (i < facts.length) {facts.push(`${facts[i]}!!!`)} return facts}
+  function johnLennonFacts (facts) {
+    var i = 0
+    while (i < facts.length) {
+      (facts[i] = `${facts[i]}!!!`)
+      i++
+    } 
+    return facts
+  }
+  
+  
+  function iLoveTheBeatles (number) {
+    var array = []
+    do {
+      array.push("I love the Beatles!")
+      number++ } 
+      while (number < 15)
+    
+  return array}
+  
+  
+  
   
